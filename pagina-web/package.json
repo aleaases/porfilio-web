@@ -1,0 +1,17 @@
+{
+  "name": "pagina-web",
+  "version": "1.0.0",
+  "description": "Una página web con un formulario de contacto.",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "live-server src",
+    "build": "tsc"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "live-server": "^1.2.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
