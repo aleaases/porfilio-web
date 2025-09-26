@@ -1,0 +1,1 @@
+// Este archivo contiene definiciones de tipos o interfaces que se utilizan en el proyecto.

@@ -5,23 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Web</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/formulario.css">
+    <link rel="stylesheet" href="styles/imagenes.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta meta name="description" content="Esta es una página web de ejemplo.">
+    <meta name="keywords" content="HTML, CSS, JavaScript, ejemplo">
+    <meta name="author" content="Tu Nombre">
+    <link rel="icon" href="ruta/a/tu/favicon.ico" type="image/x-icon">
+    
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a nuestra Página Web</h1>
-    </header>
+    <div class="header-contact">
+        <header  class="header-barra">
+            <div class="header-logo">
+                <img src="ruta/a/tu/logo.png" alt="Logo de la Empresa" class="logo">
+            </div>
+            <div class="header-contact">
+                <nav class="nav nav--dark nav--shadow nav--border-bottom nav--center nav--inline nav--inline-center nav--inline-space-around "> 
+                    <a href="#home" target="_blank" rel="noopener noreferrer">Inicio</a>
+                    <a href="#about" target="_blank" rel="noopener noreferrer">Acerca de</a>
+                    <a href="#services" target="_blank" rel="noopener noreferrer">Servicios</a>
+                    <a href="#contact" target="_blank" rel="noopener noreferrer">Contacto</a>
+                </nav>
+            </div>
+        </header>
+    </div>
     <main>
+        <section id="home" class="header-section" style="width: 100%; height: 400px; background-image: url('ruta/a/tu/imagen-de-fondo.jpg'); background-size: cover; background-position: center;">
+            <div class="header-principal">
+                <h1>Bienvenido a Nuestra Página Web</h1>
+                <p>Explora nuestro contenido y servicios.</p>
+            </div>
+            <h2></h2>
+        </section>
         <section>
-            <h2>Contáctanos</h2>
-            <div id="formulario-container">
-                <!-- Inclusión del formulario -->
-                <iframe src="components/formulario.html" style="border:none; width:100%; height:400px;"></iframe>
+            <h2>Redes sociales</h2>
+                
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                    <img src="ruta/a/tu/facebook-icon.png" alt="Facebook" class="icon">
+                </a>
+                <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+                    <img src="ruta/a/tu/twitter-icon.png" alt="Twitter" class="icon">
+                </a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                    <img src="ruta/a/tu/instagram-icon.png" alt="Instagram" class="icon">
+                </a>
+                <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+                    <img src="ruta/a/tu/linkedin-icon.png" alt="LinkedIn" class="icon">
+                </a>
+            </div>
+        </section>
+        <section>
+            <div class="formulario-container">
+                <h2>Contáctanos</h2>
+                <div id="formulario-container">
+                    <!-- Inclusión del formulario -->
+                    <iframe src="components/formulario.html" style="border:none; width:100%; height:400px;"></iframe>
+                </div>
             </div>
         </section>
         <section>
             <h2>Nuestras Imágenes</h2>
             <img src="ruta/a/tu/imagen1.jpg" alt="Descripción de la imagen 1">
             <img src="ruta/a/tu/imagen2.jpg" alt="Descripción de la imagen 2">
+            <img src="ruta/a/tu/imagen3.jpg" alt="Descripción de la imagen 3">
         </section>
     </main>
     <footer>
